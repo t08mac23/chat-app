@@ -1,1 +1,54 @@
-＜チャット画面＞
+<%# ＜チャット画面＞ %>
+<div class="chat-header">
+  <div class="left-header">
+    <a href="#">hogefuga</a>
+  </div>
+  <div class="right-header">
+    <a href="#">チャットを終了する</a>
+  </div>
+</div>
+
+<div class="messages">
+  <div class="message">
+    <div class="upper-message">
+      <div class="message-user">
+        Tom
+      </div>
+      <div class="message-date">
+        2022/11/25(Fri) 20:10:30
+      </div>
+    </div>
+    <div class="lower-message">
+      <div class="message-content">
+        おはよう
+      </div>
+    </div>
+  </div>
+
+  <div class="message">
+    <div class="upper-message">
+      <div class="message-user">
+        Tom
+      </div>
+      <div class="message-date">
+        2022/11/25(Fri) 20:25:00
+      </div>
+    </div>
+    <div class="lower-message">
+      <div class="message-content">
+        こんばんは
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="form">
+    <div class="form-input">
+    <input class="form-message" placeholder= "type a message">
+    <label class="form-image">
+      <span class="image-file">画像</span>
+      <input type="file" class="hidden">
+    </label>
+  </div>
+  <input class="form-submit" type="submit" value="送信">
+</div>
